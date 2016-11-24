@@ -82,7 +82,7 @@ int main(int argc, char *argv[]) {
 	while(1)
 	{
 
-		printf("Wating for connection from...\n\n");
+		printf("Wating for connection...\n\n");
 
 		clientSocket=accept(welcomeSocket, (struct sockaddr*) &cSock, &clientLen); // Accept new client socket
 		if(clientSocket < 0)
